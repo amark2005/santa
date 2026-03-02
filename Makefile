@@ -6,7 +6,7 @@ else
     RM       = rm -f
 endif
 
-CXXFLAGS = -O3 -flto -funroll-loops -fno-math-errno -fno-trapping-math -Wall -Wextra
+CXXFLAGS = -std=c++20 -O3 -flto -funroll-loops -fno-math-errno -fno-trapping-math -Wall -Wextra
 
 .PHONY: run clean
 .DEFAULT_GOAL := run
